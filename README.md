@@ -16,7 +16,7 @@ Industry: Beauty & Personal Care
 Location: South Africa
 Category: Herbal Hair Care Products
 Website Status: New Development Required
-Website published on:https://github.com/kajanaomi01-boop/ST10477876-Part-3-summative/edit/main/README.md
+Website published on:https://github.com/kajanaomi01-boop/ST10477876-Part-3-summative
 
 1.1 Brief History
 
