@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>KoraBloom Herbal Haircare</title>
+</head>
+
+<body>
+
+    <!--Navigation Starts-->
+    <nav>
+        <div class="navbar">
+            <a href="#" class="logo">KoraBloom Herbal Haircare</a>
+
+            <!--Hamburger menu-->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="./index.html">Home</a></li>
+
+                <li>
+                    <a href="./Service.html" class="submenu-toggle">Services</a>
+                    <ul class="submenu">
+                        <li><a href="growth.html">Herbal Hair Growth Treatment</a></li>
+                        <li><a href="Repair.html">Hairline Repair Solutions</a></li>
+                        <li><a href="Scalp.html">Scalp Nourishment & Care</a></li>
+                        <li><a href="Consultation.html">Hair Care Advice & Consultation</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Navigation Ends-->
+
+    <!--Slideshow Begins-->
+    <div class="image-container">
+
+        <!-- Slide 1 -->
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./Img/Korabloom.1.jpg" style="height: 500px; width: 100%;" alt="Korabloom products">
+            <div class="text">Caption one</div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./Img/Korabloom.2.jpg" style="height: 500px; width: 100%;" alt="Before and after results">
+            <div class="text">Caption two</div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./Img/Korabloom.3.jpg" style="height: 500px; width: 100%;" alt="Hair application tutorial">
+            <div class="text">Caption three</div>
+        </div>
+
+        <!-- Prev / Next buttons — OUTSIDE the slides, INSIDE image-container -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div><!-- /.image-container -->
+
+    <!-- Dots — OUTSIDE image-container -->
+    <div style="text-align: center; padding: 10px 0;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <!--Slideshow Ends-->
+
+    <video width="1000" height="600" controls style="display:block; margin: 20px auto;">
+        <source src="./Img/korabloom.video.mp4" type="video/mp4">
+        Your browser does not support HTML video.
+    </video>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            const slides = document.querySelectorAll('.mySlides');
+            const dots = document.querySelectorAll('.dot');
+
+            if (n > slides.length) slideIndex = 1;
+            if (n < 1) slideIndex = slides.length;
+
+            slides.forEach(s => s.style.display = 'none');
+            dots.forEach(d => d.classList.remove('active'));
+
+            slides[slideIndex - 1].style.display = 'block';
+            dots[slideIndex - 1].classList.add('active');
+        }
+
+        // Auto-advance every 5 seconds
+        setInterval(() => plusSlides(1), 5000);
+    </script>
+
+</body>
+
+<footer>
+
+    <!--Footer logo-->
+    <div class="footer-logo">
+        <h2>KoraBloom Herbal Haircare</h2>
+        <p>Natural herbal solutions for strong, healthy and beautiful hair</p>
+    </div>
+
+    <section>
+        <h3>Contact KoraBloom Herbal Haircare</h3>
+        <div class="footer-contact">
+            <p><i class="fa-brands fa-whatsapp"></i> WhatsApp: 0641282486</p>
+            <p><i class="fa-solid fa-envelope"></i> Email: Korabloomherbalhaircare.co.za</p>
+            <p><i class="fa-solid fa-location-dot"></i> Durban, South Africa</p>
+        </div>
+    </section>
+
+    <section>
+        <h3 style="text-align:center;">Follow Us</h3>
+        <div class="footer-socials">
+            <a href="https://instagram.com/yourprofile" target="_blank">
+                <i class="fa-brands fa-instagram"></i> Instagram
+            </a>
+            <a href="https://tiktok.com/@yourprofile" target="_blank">
+                <i class="fa-brands fa-tiktok"></i> TikTok
+            </a>
+            <a href="https://facebook.com/yourprofile" target="_blank">
+                <i class="fa-brands fa-facebook"></i> Facebook
+            </a>
+            <a href="https://twitter.com/yourprofile" target="_blank">
+                <i class="fa-brands fa-twitter"></i> Twitter
+            </a>
+        </div>
+    </section>
+
+    <section>
+        <h3><a href="#">Quick Links</a></h3>
+        <div class="footer-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="Service.html">Service</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="footer-newsletter">
+        <h3>Newsletter</h3>
+        <p>Subscribe for special offers and updates.</p>
+        <form>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+    <p style="grid-column: 1 / -1; text-align:center; margin-top: 10px;">
+        &copy; 2026 KoraBloom Herbal Haircare. All rights reserved.
+    </p>
+
+</footer>
+
+</html>
