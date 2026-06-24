@@ -7,7 +7,7 @@ Organisation: Korabloom Herbal Haircare
 Version: 1.0
 Date: June 2026
 Status: Draft for Review
-"Natural Hair Growth, Naturally Beautiful"
+"Natural solutions for healthy & beautiful hair"
 
 1. Organisation Overview
 
@@ -16,7 +16,7 @@ Industry: Beauty & Personal Care
 Location: South Africa
 Category: Herbal Hair Care Products
 Website Status: New Development Required
-Website published on:https://github.com
+Website published on:https://github.com/kajanaomi01-boop/ST10477876-Part-3-summative/edit/main/README.md
 
 1.1 Brief History
 
@@ -52,7 +52,8 @@ Korabloom Herbal Haircare was established to address the growing demand for natu
 
 2.2 Key Performance Indicators (KPIs)
 
-KPI Baseline Month 3 Target Month 12 TargetWebsite Visitors 2/8months,Online Sales 300 orders/1500 orders Email Subscribers 35/month ,month3-Social Media Referrals 250 month12-Social Media Referrals 1000 month3-Customer Enquiries10/month month12-Customer Enquires 30/month  month3- mobile Traffic share 55% month12-Mobile Traffic share 65%
+KPI Metric                Baseline Target (Month 3)           GrowthTarget (Month 12)
+TargetWebsite Visitors    1,000 unique vistors                 4,500 unique vistors        Online Sales              30 orders/month                      100 orders/month             Email Subscribers         50 new subscribers/month             65 new subscribers/month  Social Media Referrals           1,500 Referrals                      4,000 referrals              Customer Enquiries        10/month                             40/month                         mobile Traffic share      55%                                  65%
 
 3. Current Website Analysis
 
@@ -65,7 +66,7 @@ Korabloom currently relies primarily on social media and direct messaging platfo
 • Growing demand for natural hair products
 • Strong customer interest in herbal solutions
 
-3.2 Areas for Improvement
+3.2 Weaknesses and Areas for Improvement
 
 • No dedicated business website
 • Limited online product catalogue
@@ -82,14 +83,10 @@ Korabloom currently relies primarily on social media and direct messaging platfo
 • Homepage
 • About Us
 • Services
-• Hair Growth Oil Page
-• Hairline Repair Oil Page
-• Scalp Treatment Page
-• Customer Testimonials
-• Gallery (Before & After Results)
+• Gallery (before & after results)
 • Blog & Hair Care Tips
 • Frequently Asked Questions
-• Contact Us
+• Contact Us-Map intergration, contact form,WhatsApp button, and live chat
 
 4.2 Key Functionality
 
@@ -100,7 +97,6 @@ Korabloom currently relies primarily on social media and direct messaging platfo
 • Newsletter subscription
 • Social media integration
 • SEO optimisation
-• Secure payment gateway integration
 • Product search functionality
 • Promotional banners and discounts
 
@@ -111,6 +107,7 @@ Korabloom currently relies primarily on social media and direct messaging platfo
 The website will reflect Korabloom's natural and herbal identity while creating a modern beauty brand experience.
 Design Style: Natural Wellness & Modern Beauty
 Inspiration: Herbal ingredients, healthy hair growth, botanical beauty
+
 
 5.2 Colour Scheme
 
