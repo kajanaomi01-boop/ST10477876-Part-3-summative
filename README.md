@@ -177,4 +177,3 @@ TOTAL ESTIMATED BUDGET: R44,000
 Research Nester.2026.Natural Hair Care products Market size, growth Reports.[Online].Available at:https://www.researchnester.com [Accessed 23 June 2026].
 payfast.2025.Payment gateway intergration: A step-by-step guide for small businesses in south Africa.[Blog]. Available at:Payment Gateway Integration Guide: Shopify & WooCommerce South Africa https://payfast.io/blog/payment-gateway-integration-for-small-businesses-in-south-africa/ [Accessed 24 June 2026].
 End of Proposal | Korabloom Herbal Haircare Website Project | Version 1.0 | June 2026
-This follows the same professional format and structure as the Palm Hotel proposal, but all content has been adapted to Korabloom using the information from your business case.
